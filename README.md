@@ -4,6 +4,15 @@ substeps-glossary
 Release Notes
 =============
 
+1.1.3
+-----
+* Step implementaiton publisher that renders Markdown add the following config to the glossary publisher config:
+
+```              <glossaryPublisher implementation="com.technophobia.substeps.glossary.MarkdownSubstepsPublisher">
+                <outputFile>${project.build.directory}/my-stepimplementations.md</outputFile>
+              </glossaryPublisher>```
+
+
 1.1.1
 -----
 * Version number bump
